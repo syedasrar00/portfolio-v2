@@ -7,7 +7,7 @@ export default function About() {
         <p className='text-gray-800 font-sans text-center text-xs font-bold'>Get To Know</p>
         <h1 className='text-3xl font-bold text-cyan-500 text-center'>About Me</h1>
         <div className="flex my-5 justify-center">
-            <img src={childPic} className="h-64 w-64 mx-10 rotate-12 rounded-xl hover:rotate-0 ease-in duration-300"/>
+            <div className='bg-cyan-500 rounded-xl'><img src={childPic} className="h-64 w-64 rotate-12 rounded-xl hover:rotate-0 ease-in duration-300"/></div>
             <div className="w-1/3 gap-5">
                 {/* <card />
                 <card />
