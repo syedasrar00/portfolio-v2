@@ -7,7 +7,7 @@ import { variable } from './variable';
 
 export default function About() {
   return (
-    <div className='my-8'>
+    <div className='my-8' id='about'>
         <p className='text-gray-800 font-sans text-center text-xs font-bold'>Get To Know</p>
         <h1 className='text-3xl font-bold text-cyan-700 text-center'>About Me</h1>
         <div className="flex my-5 justify-center gap-x-10">

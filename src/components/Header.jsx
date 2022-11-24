@@ -3,7 +3,7 @@ import {variable} from './variable'
 
 export default function Header() {
   return (
-    <div className='pt-20 pb-5'>
+    <div className='pt-20 pb-5' id='#'>
         <p className='text-gray-200 font-bold text-center'>Hello, I'm</p>
         <h1 className='text-3xl font-bold text-gray-200 my-3 text-center'>{variable.name}</h1>
         <p className='text-white text-sm text-gray-300 text-center'>{variable.profession}</p>
