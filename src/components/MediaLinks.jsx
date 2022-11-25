@@ -5,7 +5,7 @@ import {AiFillTwitterCircle , AiFillLinkedin , AiFillGithub, AiFillFacebook} fro
 
 export default function () {
   return (
-    <div className='my-8 flex justify-center text-3xl gap-20'>
+    <div className='my-8 flex justify-center text-3xl gap-10 md:gap-16 lg:gap-20'>
             <a href={variable.github} target="_blank"><AiFillGithub /></a>
             <a href={variable.facebook} target="_blank"><AiFillFacebook /></a>
             <a href={variable.linkedin} target="_blank"><AiFillLinkedin /></a>

@@ -10,23 +10,23 @@ export default function About() {
     <div className='my-8' id='about'>
         <p className='text-gray-800 font-sans text-center text-xs font-bold'>Get To Know</p>
         <h1 className='text-3xl font-bold text-cyan-700 text-center'>About Me</h1>
-        <div className="flex my-5 justify-center gap-x-10">
-            <div className='bg-gradient-to-tr from-slate-500 to-transparent rounded-xl w-64 h-64'>
+        <div className="my-5 justify-center contents gap-x-10 lg:flex">
+            <div className='bg-gradient-to-tr lg:mx-1 from-slate-500 to-transparent rounded-xl w-64 h-64 mx-auto my-6'>
                 <img src={childPic} className="h-64 w-64 rotate-12 rounded-xl hover:rotate-0 ease-in duration-300"/>
             </div>
-            <div className="w-1/3 gap-5">
-                <div className="flex text-center">
-                    <section className='w-32 h-32 bg-gray-700 mr-3 rounded-xl hover:bg-gray-500 ease-in duration-300'>
+            <div className="container mx-auto max-w-[285px] md:max-w-[413px] lg:mx-0">
+                <div className="grid grid-cols-2 md:grid-cols-3 text-center content-between">
+                    <div className='w-32 h-32 bg-gray-700 rounded-xl hover:bg-gray-500 ease-in duration-300'>
                         <p className='text-2xl mx-12 mt-5 text-cyan-600'><IoIosRibbon /></p>
                         <h1 className='text-gray-300 font-bold pt-3 pb-1'>Experience</h1>
                         <p className='text-gray-300 text-xs'>{variable.exp}</p>
-                    </section>
-                    <section className='w-32 h-32 bg-gray-700 mr-3 rounded-xl hover:bg-gray-500 ease-in duration-300'>
+                    </div>
+                    <section className='w-32 h-32 bg-gray-700 rounded-xl hover:bg-gray-500 ease-in duration-300'>
                         <p className='text-2xl mx-12 mt-5 text-cyan-600'><RiFoldersFill /></p>
                         <h1 className='text-gray-300 font-bold pt-3 pb-1'>Projects</h1>
                         <p className='text-gray-300 text-xs'>{variable.project}</p>
                     </section>
-                    <section className='w-32 h-32 bg-gray-700 mr-3 rounded-xl hover:bg-gray-500 ease-in duration-300'>
+                    <section className='w-32 mt-3 md:mt-0 h-32 bg-gray-700 rounded-xl hover:bg-gray-500 ease-in duration-300'>
                         <p className='text-2xl mx-12 mt-5 text-cyan-600'><TbCertificate /></p>
                         <h1 className='text-gray-300 font-bold pt-3 pb-1'>Education</h1>
                         <p className='text-gray-300 text-xs'>{variable.qualification}</p>
