@@ -26,7 +26,7 @@ export default function About() {
                         <h1 className='text-gray-300 font-bold pt-3 pb-1'>Projects</h1>
                         <p className='text-gray-300 text-xs'>{variable.project}</p>
                     </section>
-                    <section className='w-32 mt-3 md:mt-0 h-32 bg-gray-700 rounded-xl hover:bg-gray-500 ease-in duration-300'>
+                    <section className='w-32 mt-4 md:mt-0 h-32 bg-gray-700 rounded-xl hover:bg-gray-500 ease-in duration-300'>
                         <p className='text-2xl mx-12 mt-5 text-cyan-600'><TbCertificate /></p>
                         <h1 className='text-gray-300 font-bold pt-3 pb-1'>Education</h1>
                         <p className='text-gray-300 text-xs'>{variable.qualification}</p>

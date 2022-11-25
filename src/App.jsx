@@ -4,6 +4,7 @@ import Header from './components/Header'
 import MediaLinks from './components/MediaLinks'
 import Navbar from './components/Navbar'
 import Profile from './components/Profile'
+import Skills from './components/Skills'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Navbar />
       <MediaLinks />
       <About />
+      <Skills />
     </div>
   )
 }
