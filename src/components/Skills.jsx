@@ -38,33 +38,25 @@ export default function Skills() {
                 </div>
             </div>
             <div className='bg-[rgb(67 68 98 / 53%)] rounded-xl max-w-[400px] shadow-xl'>
-                <p className='text-cyan-500 font-bold text-2xl pt-3 pb-1'>Frontend Development</p>
+                <p className='text-cyan-500 font-bold text-2xl pt-3 pb-1'>Backend Development</p>
             <div className="flex">
                     <ul className='grid grid-cols-2 mx-auto gap-5 p-4'>
-                        <li><h1 className='text-cyan-500 font-bold pt-3 pb-1 text-lg'>HTMl</h1>
+                        <li><h1 className='text-cyan-500 font-bold pt-3 pb-1 text-lg'>Java</h1>
                             <span className='text-gray-800 font-sans text-center text-xs font-bold'>Experienced
                             </span>
                         </li>
-                        <li><h1 className='text-cyan-500 font-bold pt-3 pb-1 text-lg'>CSS</h1>
+                        <li><h1 className='text-cyan-500 font-bold pt-3 pb-1 text-lg'>Spring Boot</h1>
                             <span className='text-gray-800 font-sans text-center text-xs font-bold'>Experienced
                             </span>
                         </li>
-                        <li><h1 className='text-cyan-500 font-bold pt-3 pb-1 text-lg'>JavaScript</h1>
+                        <li><h1 className='text-cyan-500 font-bold pt-3 pb-1 text-lg'>MySql</h1>
                             <span className='text-gray-800 font-sans text-center text-xs font-bold'>Experienced
                             </span>
                         </li>
-                        <li><h1 className='text-cyan-500 font-bold pt-3 pb-1 text-lg'>BootStrap</h1>
+                        <li><h1 className='text-cyan-500 font-bold pt-3 pb-1 text-lg'>MongoDB</h1>
                             <span className='text-gray-800 font-sans text-center text-xs font-bold'>Experienced
                             </span>
-                        </li>
-                        <li><h1 className='text-cyan-500 font-bold pt-3 pb-1 text-lg'>Tailwind</h1>
-                            <span className='text-gray-800 font-sans text-center text-xs font-bold'>Experienced
-                            </span>
-                        </li>
-                        <li><h1 className='text-cyan-500 font-bold pt-3 pb-1 text-lg'>React</h1>
-                            <span className='text-gray-800 font-sans text-center text-xs font-bold'>Experienced
-                            </span>
-                        </li>
+                        </li>                       
                     </ul>
                 </div>
             </div>
