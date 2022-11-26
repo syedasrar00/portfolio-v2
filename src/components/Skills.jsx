@@ -5,8 +5,8 @@ export default function Skills() {
     <div className='my-12 max-w-[900px] mx-auto p-10' id='skills'>
         <p className='text-gray-800 font-sans text-center text-xs font-bold'>What Skills i Have</p>
         <h1 className='text-3xl font-bold text-cyan-700 text-center pb-8'>Skills</h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2 text-center gap-5">
-            <div className='bg-[rgb(67 68 98 / 53%)] rounded-xl max-w-[400px] shadow-xl'>
+        <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 text-center gap-5">
+            <div className='bg-[rgb(100,116,139,35%)] p-6 rounded-xl max-w-[400px] shadow-xl'>
                 <p className='text-cyan-500 font-bold text-2xl pt-3 pb-1'>Frontend Development</p>
                 <div className="flex">
                     <ul className='grid grid-cols-2 mx-auto gap-5 p-4'>
@@ -37,7 +37,7 @@ export default function Skills() {
                     </ul>
                 </div>
             </div>
-            <div className='bg-[rgb(67 68 98 / 53%)] rounded-xl max-w-[400px] shadow-xl'>
+            <div className='bg-[rgb(100,116,139,35%)] p-6 rounded-xl max-w-[400px] shadow-xl'>
                 <p className='text-cyan-500 font-bold text-2xl pt-3 pb-1'>Backend Development</p>
             <div className="flex">
                     <ul className='grid grid-cols-2 mx-auto gap-5 p-4'>
